@@ -4,5 +4,6 @@ from core.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', qiymat),
+    path('moshina', qiymat),
+
 ]
